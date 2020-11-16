@@ -1,6 +1,7 @@
 %h1 Project Commits
 
-%ul
+%ul.list-group
   - commits.each do |commit|
-    %li
-      = commit.dig('commit', 'message')
+    %li.list-group-item
+      %h3= commit.dig('commit', 'message')
+      = "by <i>#{commit.dig('commit', 'committer', 'name')}</i> at #{Time.parse(commit.dig('commit', 'committer', 'date')).to_s(:short)}".html_safe
