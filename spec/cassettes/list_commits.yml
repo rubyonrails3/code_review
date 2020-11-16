@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/rubyonrails3/code_review/commits
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.github.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 16 Nov 2020 22:54:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - GitHub.com
+      Status:
+      - 200 OK
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding
+      Etag:
+      - W/"a73b9d1ac4d6538326f98041f08b35bbf9405580429a6c665ed0b7675d0f0f40"
+      Last-Modified:
+      - Mon, 16 Nov 2020 22:35:21 GMT
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes,
+        X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '58'
+      X-Ratelimit-Reset:
+      - '1605570761'
+      X-Ratelimit-Used:
+      - '2'
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '1259'
+      X-Github-Request-Id:
+      - 1592:1386:1B81C2:201046:5FB3032A
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"sha":"97d6b51870e9fdfd1a5927156e87cc4daa18b5ae","node_id":"MDY6Q29tbWl0MzEzNDMyOTg3Ojk3ZDZiNTE4NzBlOWZkZmQxYTU5MjcxNTZlODdjYzRkYWExOGI1YWU=","commit":{"author":{"name":"Ismail
+        Akram","email":"ismail@allocator.com","date":"2020-11-16T22:35:21Z"},"committer":{"name":"Ismail
+        Akram","email":"ismail@allocator.com","date":"2020-11-16T22:35:21Z"},"message":"Added
+        a blank page to view repository commits","tree":{"sha":"c7b2a0acdc9b8c4f16fdb30c32747e9ba0026341","url":"https://api.github.com/repos/rubyonrails3/code_review/git/trees/c7b2a0acdc9b8c4f16fdb30c32747e9ba0026341"},"url":"https://api.github.com/repos/rubyonrails3/code_review/git/commits/97d6b51870e9fdfd1a5927156e87cc4daa18b5ae","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/rubyonrails3/code_review/commits/97d6b51870e9fdfd1a5927156e87cc4daa18b5ae","html_url":"https://github.com/rubyonrails3/code_review/commit/97d6b51870e9fdfd1a5927156e87cc4daa18b5ae","comments_url":"https://api.github.com/repos/rubyonrails3/code_review/commits/97d6b51870e9fdfd1a5927156e87cc4daa18b5ae/comments","author":{"login":"ismailallocator","id":23015024,"node_id":"MDQ6VXNlcjIzMDE1MDI0","avatar_url":"https://avatars2.githubusercontent.com/u/23015024?v=4","gravatar_id":"","url":"https://api.github.com/users/ismailallocator","html_url":"https://github.com/ismailallocator","followers_url":"https://api.github.com/users/ismailallocator/followers","following_url":"https://api.github.com/users/ismailallocator/following{/other_user}","gists_url":"https://api.github.com/users/ismailallocator/gists{/gist_id}","starred_url":"https://api.github.com/users/ismailallocator/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ismailallocator/subscriptions","organizations_url":"https://api.github.com/users/ismailallocator/orgs","repos_url":"https://api.github.com/users/ismailallocator/repos","events_url":"https://api.github.com/users/ismailallocator/events{/privacy}","received_events_url":"https://api.github.com/users/ismailallocator/received_events","type":"User","site_admin":false},"committer":{"login":"ismailallocator","id":23015024,"node_id":"MDQ6VXNlcjIzMDE1MDI0","avatar_url":"https://avatars2.githubusercontent.com/u/23015024?v=4","gravatar_id":"","url":"https://api.github.com/users/ismailallocator","html_url":"https://github.com/ismailallocator","followers_url":"https://api.github.com/users/ismailallocator/followers","following_url":"https://api.github.com/users/ismailallocator/following{/other_user}","gists_url":"https://api.github.com/users/ismailallocator/gists{/gist_id}","starred_url":"https://api.github.com/users/ismailallocator/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ismailallocator/subscriptions","organizations_url":"https://api.github.com/users/ismailallocator/orgs","repos_url":"https://api.github.com/users/ismailallocator/repos","events_url":"https://api.github.com/users/ismailallocator/events{/privacy}","received_events_url":"https://api.github.com/users/ismailallocator/received_events","type":"User","site_admin":false},"parents":[{"sha":"6a17affeda3d8c5f3bbc8c754d45d3d9f37d0a0f","url":"https://api.github.com/repos/rubyonrails3/code_review/commits/6a17affeda3d8c5f3bbc8c754d45d3d9f37d0a0f","html_url":"https://github.com/rubyonrails3/code_review/commit/6a17affeda3d8c5f3bbc8c754d45d3d9f37d0a0f"}]},{"sha":"6a17affeda3d8c5f3bbc8c754d45d3d9f37d0a0f","node_id":"MDY6Q29tbWl0MzEzNDMyOTg3OjZhMTdhZmZlZGEzZDhjNWYzYmJjOGM3NTRkNDVkM2Q5ZjM3ZDBhMGY=","commit":{"author":{"name":"Ismail
+        Akram","email":"ismail@allocator.com","date":"2020-11-16T22:22:56Z"},"committer":{"name":"Ismail
+        Akram","email":"ismail@allocator.com","date":"2020-11-16T22:22:56Z"},"message":"Fetch
+        commits from github repo","tree":{"sha":"2c4a5c3ab84718e61c903495f9ac26e2725b8956","url":"https://api.github.com/repos/rubyonrails3/code_review/git/trees/2c4a5c3ab84718e61c903495f9ac26e2725b8956"},"url":"https://api.github.com/repos/rubyonrails3/code_review/git/commits/6a17affeda3d8c5f3bbc8c754d45d3d9f37d0a0f","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/rubyonrails3/code_review/commits/6a17affeda3d8c5f3bbc8c754d45d3d9f37d0a0f","html_url":"https://github.com/rubyonrails3/code_review/commit/6a17affeda3d8c5f3bbc8c754d45d3d9f37d0a0f","comments_url":"https://api.github.com/repos/rubyonrails3/code_review/commits/6a17affeda3d8c5f3bbc8c754d45d3d9f37d0a0f/comments","author":{"login":"ismailallocator","id":23015024,"node_id":"MDQ6VXNlcjIzMDE1MDI0","avatar_url":"https://avatars2.githubusercontent.com/u/23015024?v=4","gravatar_id":"","url":"https://api.github.com/users/ismailallocator","html_url":"https://github.com/ismailallocator","followers_url":"https://api.github.com/users/ismailallocator/followers","following_url":"https://api.github.com/users/ismailallocator/following{/other_user}","gists_url":"https://api.github.com/users/ismailallocator/gists{/gist_id}","starred_url":"https://api.github.com/users/ismailallocator/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ismailallocator/subscriptions","organizations_url":"https://api.github.com/users/ismailallocator/orgs","repos_url":"https://api.github.com/users/ismailallocator/repos","events_url":"https://api.github.com/users/ismailallocator/events{/privacy}","received_events_url":"https://api.github.com/users/ismailallocator/received_events","type":"User","site_admin":false},"committer":{"login":"ismailallocator","id":23015024,"node_id":"MDQ6VXNlcjIzMDE1MDI0","avatar_url":"https://avatars2.githubusercontent.com/u/23015024?v=4","gravatar_id":"","url":"https://api.github.com/users/ismailallocator","html_url":"https://github.com/ismailallocator","followers_url":"https://api.github.com/users/ismailallocator/followers","following_url":"https://api.github.com/users/ismailallocator/following{/other_user}","gists_url":"https://api.github.com/users/ismailallocator/gists{/gist_id}","starred_url":"https://api.github.com/users/ismailallocator/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ismailallocator/subscriptions","organizations_url":"https://api.github.com/users/ismailallocator/orgs","repos_url":"https://api.github.com/users/ismailallocator/repos","events_url":"https://api.github.com/users/ismailallocator/events{/privacy}","received_events_url":"https://api.github.com/users/ismailallocator/received_events","type":"User","site_admin":false},"parents":[{"sha":"5a4691a048ced54b039fbfe19d58c04139849bff","url":"https://api.github.com/repos/rubyonrails3/code_review/commits/5a4691a048ced54b039fbfe19d58c04139849bff","html_url":"https://github.com/rubyonrails3/code_review/commit/5a4691a048ced54b039fbfe19d58c04139849bff"}]},{"sha":"5a4691a048ced54b039fbfe19d58c04139849bff","node_id":"MDY6Q29tbWl0MzEzNDMyOTg3OjVhNDY5MWEwNDhjZWQ1NGIwMzlmYmZlMTlkNThjMDQxMzk4NDliZmY=","commit":{"author":{"name":"Ismail
+        Akram","email":"ismail@allocator.com","date":"2020-11-16T21:39:14Z"},"committer":{"name":"Ismail
+        Akram","email":"ismail@allocator.com","date":"2020-11-16T21:39:14Z"},"message":"Initialized
+        new rails project","tree":{"sha":"e93104ac35aedac83a3b3efd048051901b765e7a","url":"https://api.github.com/repos/rubyonrails3/code_review/git/trees/e93104ac35aedac83a3b3efd048051901b765e7a"},"url":"https://api.github.com/repos/rubyonrails3/code_review/git/commits/5a4691a048ced54b039fbfe19d58c04139849bff","comment_count":0,"verification":{"verified":false,"reason":"unsigned","signature":null,"payload":null}},"url":"https://api.github.com/repos/rubyonrails3/code_review/commits/5a4691a048ced54b039fbfe19d58c04139849bff","html_url":"https://github.com/rubyonrails3/code_review/commit/5a4691a048ced54b039fbfe19d58c04139849bff","comments_url":"https://api.github.com/repos/rubyonrails3/code_review/commits/5a4691a048ced54b039fbfe19d58c04139849bff/comments","author":{"login":"ismailallocator","id":23015024,"node_id":"MDQ6VXNlcjIzMDE1MDI0","avatar_url":"https://avatars2.githubusercontent.com/u/23015024?v=4","gravatar_id":"","url":"https://api.github.com/users/ismailallocator","html_url":"https://github.com/ismailallocator","followers_url":"https://api.github.com/users/ismailallocator/followers","following_url":"https://api.github.com/users/ismailallocator/following{/other_user}","gists_url":"https://api.github.com/users/ismailallocator/gists{/gist_id}","starred_url":"https://api.github.com/users/ismailallocator/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ismailallocator/subscriptions","organizations_url":"https://api.github.com/users/ismailallocator/orgs","repos_url":"https://api.github.com/users/ismailallocator/repos","events_url":"https://api.github.com/users/ismailallocator/events{/privacy}","received_events_url":"https://api.github.com/users/ismailallocator/received_events","type":"User","site_admin":false},"committer":{"login":"ismailallocator","id":23015024,"node_id":"MDQ6VXNlcjIzMDE1MDI0","avatar_url":"https://avatars2.githubusercontent.com/u/23015024?v=4","gravatar_id":"","url":"https://api.github.com/users/ismailallocator","html_url":"https://github.com/ismailallocator","followers_url":"https://api.github.com/users/ismailallocator/followers","following_url":"https://api.github.com/users/ismailallocator/following{/other_user}","gists_url":"https://api.github.com/users/ismailallocator/gists{/gist_id}","starred_url":"https://api.github.com/users/ismailallocator/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ismailallocator/subscriptions","organizations_url":"https://api.github.com/users/ismailallocator/orgs","repos_url":"https://api.github.com/users/ismailallocator/repos","events_url":"https://api.github.com/users/ismailallocator/events{/privacy}","received_events_url":"https://api.github.com/users/ismailallocator/received_events","type":"User","site_admin":false},"parents":[]}]'
+  recorded_at: Mon, 16 Nov 2020 22:54:34 GMT
+recorded_with: VCR 6.0.0
